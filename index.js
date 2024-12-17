@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: 'https://friendly-bonbon-13cc47.netlify.app/', // Replace this with your frontend URL
+  origin: 'https://melodious-cendol-68289a.netlify.app//', // Replace this with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow necessary HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow necessary headers
 }));
